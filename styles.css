@@ -98,6 +98,10 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+.card:hover {
+  border-color: #ff99ff;
+}
+/* styling experience page: */
 .card2 {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -108,9 +112,16 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
-  border-color: #ff99ff;
+.exp-image {
+  margin-top:30px;
+  padding: 0;
+  max-width: 700px;
+  transition: all .5s;
 }
+.exp-image:hover {
+  transform: scale(1.2) rotate(2deg);
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
